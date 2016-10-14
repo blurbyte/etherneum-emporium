@@ -1,0 +1,103 @@
+.wrapper {
+  width: 80rem;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 8px -1px rgba(0,0,0,0.5);
+  border-radius: 16px;
+  animation: fade-in 1.6s ease-out;
+}
+
+.header {
+  background: #403f3b;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.main-header {
+  composes: thin-sans from '../../styles/styles.css';
+  letter-spacing: -0.1rem;
+  font-size: 2.4rem;
+  color: #d9d9d8;
+  line-height: 6.4rem;
+  padding-left: 23rem;
+  margin: 0;
+  cursor: default;
+}
+
+.content {
+  display: flex;
+}
+
+.main-content {
+  padding: 1.4rem 0 2.8rem 2rem;
+  height: 60rem;
+}
+
+.side-content {
+  width: 20rem;
+  border-right: 1px solid #bfbbb2;
+  height: 60rem;
+  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ecebeb;
+  height: 6.4rem;
+  padding-left: 22rem;
+  padding-right: 1.2rem;
+  border-top: 1px solid #bfbbb2;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/*animations*/
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*toggle content*/
+
+:global(.toggle-content-enter) {
+  opacity: 0;
+  transform: translateY(0.6rem);
+}
+
+:global(.toggle-content-enter.toggle-content-enter-active) {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.4s ease-in;
+}
+
+/*error fade in*/
+
+:global(.error-fade-enter) {
+  opacity: 0;
+}
+
+:global(.error-fade-enter.error-fade-enter-active) {
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+
+:global(.error-fade-leave) {
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+
+:global(.error-fade-leave.error-fade-leave-active) {
+  opacity: 0;
+}

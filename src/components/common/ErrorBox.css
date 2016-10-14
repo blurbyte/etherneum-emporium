@@ -1,0 +1,12 @@
+.error-box {
+  display: flex;
+  align-items: center;
+  composes: light-sans from '../../styles/styles.css';
+  font-size: 1.4rem;
+  color: #fff;
+  background: #e3565b;
+  height: 3.8rem;
+  border-radius: 4px;
+  padding: 0 2.4rem;
+  cursor: default;
+}

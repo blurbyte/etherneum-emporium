@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.input {
+  composes: semibold-sans from '../../styles/styles.css';
+  color: #403f3b;
+  font-size: 1.8rem;
+  background: #ecebeb;
+  border: none;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  padding: 0 1rem;
+  transition: background 0.2s ease-in;
+}
+
+.input:disabled {
+  background: #d9d7d7;
+  color: #a4a3a2;
+}
+
+.input:focus {
+  background: #e2daf4;
+}
+
+.input-name {
+  composes: input;
+  width: 20rem;
+  border-right: 1px solid #bfbbb2;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.input-quantity {
+  composes: input;
+  width: 10.6rem;
+  margin-right: 2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.amount {
+  composes: semibold-sans from '../../styles/styles.css';
+  color: #403f3b;
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 3.8rem;
+  width: 12.4rem;
+  padding-left: 1rem;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 0.6rem;
+  vertical-align: top;
+}

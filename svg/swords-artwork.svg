@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="96px" height="92.001px" viewBox="0 0 96 92.001" enable-background="new 0 0 96 92.001" xml:space="preserve">
+<circle opacity="0.5" fill="#9E83DB" cx="47.999" cy="46.001" r="46"/>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="46.0005" x2="96" y2="46.0005">
+		<stop  offset="0" style="stop-color:#9E83DB"/>
+		<stop  offset="1" style="stop-color:#E3565B"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" points="91.967,81.479 79.61,69.028 82.212,66.406 80.202,64.385 87.007,57.526 79.416,55.763
+		75.531,59.677 57.873,41.886 85.776,13.771 87.833,1.751 75.905,3.823 48.001,31.938 20.097,3.823 8.167,1.751 10.224,13.771
+		38.128,41.886 20.471,59.677 16.585,55.763 8.993,57.526 15.796,64.385 13.79,66.406 16.393,69.028 4.033,81.479 0,81.479 0,90.25
+		8.706,90.25 8.706,86.186 21.062,73.733 23.663,76.354 25.672,74.333 32.478,81.19 34.228,73.539 30.342,69.626 48,51.833
+		65.659,69.626 61.773,73.539 63.524,81.19 70.331,74.333 72.336,76.354 74.938,73.733 87.296,86.186 87.296,90.25 96,90.25
+		96,81.479 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="42.9551" y1="36.7783" x2="37.862" y2="31.6852">
+		<stop  offset="0" style="stop-color:#000000;stop-opacity:0.2"/>
+		<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_2_)" points="48.001,31.938 38.131,41.89 32.811,36.528 42.69,26.579 	"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="52.8643" y1="46.8013" x2="58.2107" y2="52.1477">
+		<stop  offset="0" style="stop-color:#000000;stop-opacity:0.3"/>
+		<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_3_)" points="63.192,47.235 53.323,57.185 48.003,51.835 57.873,41.886 	"/>
+</g>
+</svg>

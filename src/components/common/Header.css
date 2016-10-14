@@ -1,0 +1,68 @@
+.banner {
+  width: 100%;
+  background: #403f3b;
+  height: 9.6rem;
+  margin-bottom: 3rem;
+  animation: dark-mist 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.logo {
+  width: 522px;
+  height: 72px;
+  margin: 0 auto;
+  padding-top: 2.4rem;
+  position: relative;
+}
+
+.description {
+  composes: thin-sans from '../../styles/styles.css';
+  font-size: 1.4rem;
+  color: #d9d9d8;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 6.2rem;
+  left: 4rem;
+  cursor: default;
+  animation: move-fade-in 2s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.logo :global(.main-shape) {
+  animation: tangerine-dream 3s ease-in;
+  animation-fill-mode: forwards;
+}
+
+/*animations*/
+@keyframes tangerine-dream {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes move-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(0.4rem);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dark-mist {
+  0% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

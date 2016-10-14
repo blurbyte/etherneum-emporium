@@ -1,0 +1,42 @@
+.label {
+  display: inline-block;
+  composes: thin-sans from '../../styles/styles.css';
+  font-size: 1.4rem;
+  color: #403f3b;
+  text-transform: uppercase;
+  width: 12.4rem;
+  padding-left: 1rem;
+  cursor: default;
+}
+
+.label-long {
+  composes: label;
+  width: 20rem;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*animations*/
+:global(.place-order-enter) {
+  opacity: 0;
+  transform: translateY(0.8rem);
+}
+
+:global(.place-order-enter.place-order-enter-active) {
+  opacity: 1;
+  transition: all 0.4s ease-in;
+  transform: translateY(-0);
+}
+
+:global(.place-order-leave) {
+  opacity: 1;
+  transition: all 0.4s ease-in;
+}
+
+:global(.place-order-leave.place-order-leave-active) {
+  opacity: 0;
+}

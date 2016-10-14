@@ -1,0 +1,33 @@
+.item {
+  composes: thin-sans from '../../styles/styles.css';
+  font-size: 1.8rem;
+  cursor: pointer;
+  min-height: 2.9rem;
+  padding: 0.8rem 2rem;
+  line-height: 1.2;
+}
+
+.item-selected {
+  composes: item;
+  background: #cec1ee;
+  border-left: 0.4rem solid #9d84dd;
+  padding-left: 1.6rem;
+}
+
+.item:nth-child(even):not(.item-selected) {
+  background: #ecebeb;
+}
+
+.item:nth-child(odd):not(.item-selected) {
+  background: #f5f5f5;
+}
+
+.item:nth-child(even):not(.item-selected):hover, .item:nth-child(odd):not(.item-selected):hover {
+  background: #e6e0f6;
+}
+
+.item:nth-child(even):not(.item-selected):active, .item:nth-child(odd):not(.item-selected):active {
+  background: #cec1ee;
+  border-left: 0.4rem solid #9d84dd;
+  padding-left: 1.6rem;
+}

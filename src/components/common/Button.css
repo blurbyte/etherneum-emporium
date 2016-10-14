@@ -1,0 +1,22 @@
+.button {
+  composes: semibold-sans from '../../styles/styles.css';
+  background: #9d84dd;
+  border: 3px solid #9d84dd;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 3.8rem;
+  padding: 0 2.4rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.4s linear;
+}
+
+.button:focus, .button:hover {
+  border: 3px solid #c06d9b;
+}
+
+.button:active {
+  background: #e3565b;
+  border: 3px solid #e3565b;
+}

@@ -1,0 +1,76 @@
+@import './normalize.css';
+
+/*GLOBAL STYLES available for all components*/
+
+/*colors reference
+dark gray: #403f3b
+gray (border): #bfbbb2
+light gray: #ecebeb
+light gray (text): #d9d9d8
+violet: #9d84dd
+light violet: #e2daf4;
+reddish: #e3565b
+*/
+
+@font-face {
+  font-family:'OpenSans Light';
+  src:  url('../fonts/OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/OpenSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family:'OpenSans Semibold';
+  src:  url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Semibold.woff') format('woff');
+}
+
+/*font size set up for rem measurement unit*/
+html {
+	font-size: 10px;
+	font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/*makes using flexbox more consistent and simpler*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #d9d9d8;
+  position: relative;
+  overflow-y: scroll;
+}
+
+input, textarea, button, select, label, a {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(157, 132, 221, 0.3);
+}
+
+li::selection {
+  background: rgba(0,0,0,0);
+}
+
+::placeholder {
+  color: #a4a3a2;
+}
+
+/*fonts*/
+.thin-sans {
+  font-family: 'OpenSans Light', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.05rem;
+  font-weight: initial;
+}
+
+.semibold-sans {
+  font-family: 'OpenSans Semibold', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.1rem;
+  font-weight: initial;
+}
